@@ -2,7 +2,7 @@
 Contributors: cloudcatch, dkjensen, seattlewebco, davidperez, exstheme
 Tested up to: 6.6.2
 Requires PHP: 8.0.0
-Stable tag: 3.0.1
+Stable tag: 3.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -28,6 +28,9 @@ Adds ability for users and guests to download their WooCommerce cart as PDF. Use
 2. Customizer settings
 
 == Changelog ==
+
+3.0.2
+* Fix PDF template not translating the date
 
 3.0.1
 * Fix PDF not generating when changing shipping method
