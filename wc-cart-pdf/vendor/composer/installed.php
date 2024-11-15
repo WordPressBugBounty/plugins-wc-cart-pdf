@@ -3,7 +3,7 @@
         'name' => 'dkjensen/wc-cart-pdf',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b7cb6b0d22671c26b42cef91e918984d3cbb7318',
+        'reference' => 'd9abb34e5908a8acec20842af6f0e7613fab2edd',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'dkjensen/wc-cart-pdf' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b7cb6b0d22671c26b42cef91e918984d3cbb7318',
+            'reference' => 'd9abb34e5908a8acec20842af6f0e7613fab2edd',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
