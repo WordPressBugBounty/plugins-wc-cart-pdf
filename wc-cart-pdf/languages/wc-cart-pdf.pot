@@ -1,14 +1,14 @@
-# Copyright (C) 2024 CloudCatch LLC
+# Copyright (C) 2025 CloudCatch LLC
 # This file is distributed under the same license as the WooCommerce Cart PDF package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Cart PDF 3.1.1\n"
+"Project-Id-Version: WooCommerce Cart PDF 3.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-cart-pdf\n"
-"POT-Creation-Date: 2024-12-17 20:52:29+00:00\n"
+"POT-Creation-Date: 2025-07-17 16:38:53+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: node-wp-i18n 1.2.7\n"
@@ -139,36 +139,36 @@ msgstr ""
 msgid "Your cart from %s"
 msgstr ""
 
-#: templates/cart-table.php:49 templates/cart-table.php:89
+#: templates/cart-table.php:49 templates/cart-table.php:92
 msgid "Product"
 msgstr ""
 
-#: templates/cart-table.php:50 templates/cart-table.php:109
+#: templates/cart-table.php:50 templates/cart-table.php:112
 msgid "Price"
 msgstr ""
 
-#: templates/cart-table.php:51 templates/cart-table.php:115
+#: templates/cart-table.php:51 templates/cart-table.php:118
 msgid "Quantity"
 msgstr ""
 
-#: templates/cart-table.php:52 templates/cart-table.php:119
-#: templates/cart-table.php:182 templates/cart-table.php:183
+#: templates/cart-table.php:52 templates/cart-table.php:122
+#: templates/cart-table.php:185 templates/cart-table.php:186
 msgid "Total"
 msgstr ""
 
-#: templates/cart-table.php:104
+#: templates/cart-table.php:107
 msgid "Available on backorder"
 msgstr ""
 
-#: templates/cart-table.php:131 templates/cart-table.php:132
+#: templates/cart-table.php:134 templates/cart-table.php:135
 msgid "Subtotal"
 msgstr ""
 
-#: templates/cart-table.php:137 templates/cart-table.php:138
+#: templates/cart-table.php:140 templates/cart-table.php:141
 msgid "Shipping"
 msgstr ""
 
-#: templates/cart-table.php:160
+#: templates/cart-table.php:163
 msgid "(estimated for %s)"
 msgstr ""
 
