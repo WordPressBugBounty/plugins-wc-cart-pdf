@@ -1,10 +1,10 @@
 # Copyright (C) 2025 CloudCatch LLC
-# This file is distributed under the same license as the WooCommerce Cart PDF package.
+# This file is distributed under the same license as the Cart PDF for WooCommerce package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Cart PDF 3.1.2\n"
+"Project-Id-Version: Cart PDF for WooCommerce 3.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wc-cart-pdf\n"
-"POT-Creation-Date: 2025-07-17 16:38:53+00:00\n"
+"POT-Creation-Date: 2025-08-05 14:31:37+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,7 +27,7 @@ msgid "Cart PDF"
 msgstr ""
 
 #: includes/class-wc-cart-pdf-settings.php:19
-msgid "WC Cart PDF allows customers to download their cart as a PDF."
+msgid "Cart PDF for WooCommerce allows customers to download their cart as a PDF."
 msgstr ""
 
 #: includes/class-wc-cart-pdf-settings.php:181
@@ -152,7 +152,7 @@ msgid "Quantity"
 msgstr ""
 
 #: templates/cart-table.php:52 templates/cart-table.php:122
-#: templates/cart-table.php:185 templates/cart-table.php:186
+#: templates/cart-table.php:192 templates/cart-table.php:193
 msgid "Total"
 msgstr ""
 
@@ -168,7 +168,8 @@ msgstr ""
 msgid "Shipping"
 msgstr ""
 
-#: templates/cart-table.php:163
+#: templates/cart-table.php:166
+#. translators: %s location.
 msgid "(estimated for %s)"
 msgstr ""
 
@@ -189,13 +190,13 @@ msgid "Edit"
 msgstr ""
 
 #: wc-cart-pdf.php:90
-msgid "WooCommerce Cart PDF requirements not met"
+msgid "Cart PDF for WooCommerce requirements not met"
 msgstr ""
 
 #: wc-cart-pdf.php:91
 msgid ""
-"WooCommerce Cart PDF requires at least PHP 8.0.0 with the mbstring and gd "
-"extensions loaded. "
+"Cart PDF for WooCommerce requires at least PHP 8.0.0 with the mbstring and "
+"gd extensions loaded. "
 msgstr ""
 
 #: wc-cart-pdf.php:132
@@ -203,7 +204,7 @@ msgid "Invalid nonce. Unable to process PDF for download."
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "WooCommerce Cart PDF"
+msgid "Cart PDF for WooCommerce"
 msgstr ""
 
 #. Description of the plugin/theme

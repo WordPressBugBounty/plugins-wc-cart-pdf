@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:         WooCommerce Cart PDF
+ * Plugin Name:         Cart PDF for WooCommerce
  * Description:         Allows customers to download their cart as a PDF
- * Version:             3.1.2
+ * Version:             3.2.0
  * Author:              CloudCatch LLC
  * Author URI:          https://cloudcatch.io
  * Text Domain:         wc-cart-pdf
@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'WC_CART_PDF_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 define( 'WC_CART_PDF_URL', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 define( 'WC_CART_PDF_TEMPLATE_PATH', WC_CART_PDF_PATH . 'templates/' );
-define( 'WC_CART_PDF_VER', '3.1.2' );
+define( 'WC_CART_PDF_VER', '3.2.0' );
 
 require_once WC_CART_PDF_PATH . 'vendor/autoload.php';
 require_once WC_CART_PDF_PATH . 'wc-cart-pdf-compatibility.php';
@@ -87,8 +87,8 @@ if ( ! extension_loaded( 'gd' ) || ! extension_loaded( 'mbstring' ) || version_c
 		?>
 
 		<div class="notice notice-warning is-dismissible">
-			<p><strong><?php esc_html_e( 'WooCommerce Cart PDF requirements not met', 'wc-cart-pdf' ); ?></strong></p>
-			<p><?php esc_html_e( 'WooCommerce Cart PDF requires at least PHP 8.0.0 with the mbstring and gd extensions loaded. ', 'wc-cart-pdf' ); ?></p>
+			<p><strong><?php esc_html_e( 'Cart PDF for WooCommerce requirements not met', 'wc-cart-pdf' ); ?></strong></p>
+			<p><?php esc_html_e( 'Cart PDF for WooCommerce requires at least PHP 8.0.0 with the mbstring and gd extensions loaded. ', 'wc-cart-pdf' ); ?></p>
 		</div>
 
 		<?php
