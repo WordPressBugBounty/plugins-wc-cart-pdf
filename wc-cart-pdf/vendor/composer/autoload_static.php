@@ -4,22 +4,8 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit396d503ab4790c1ddab926736352a480
+class ComposerStaticInitabb239c3c541a423aa200d332a435f8d
 {
-    public static $prefixLengthsPsr4 = array (
-        'W' => 
-        array (
-            'WCCartPDF\\' => 10,
-        ),
-    );
-
-    public static $prefixDirsPsr4 = array (
-        'WCCartPDF\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/dependencies',
-        ),
-    );
-
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -27,9 +13,7 @@ class ComposerStaticInit396d503ab4790c1ddab926736352a480
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit396d503ab4790c1ddab926736352a480::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit396d503ab4790c1ddab926736352a480::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit396d503ab4790c1ddab926736352a480::$classMap;
+            $loader->classMap = ComposerStaticInitabb239c3c541a423aa200d332a435f8d::$classMap;
 
         }, null, ClassLoader::class);
     }
