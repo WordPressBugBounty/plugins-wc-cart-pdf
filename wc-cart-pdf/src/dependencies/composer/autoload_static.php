@@ -4,7 +4,7 @@
 
 namespace WCCartPDF\Composer\Autoload;
 
-class ComposerStaticInitc91c14ce256382ae3a7d1009df20faf2
+class ComposerStaticInit52f8c073e358d3e5558e935dc9b6155e
 {
     public static $files = array (
         '2ee654cc7bb0eeea0995d765f2dd491f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
@@ -386,9 +386,9 @@ class ComposerStaticInitc91c14ce256382ae3a7d1009df20faf2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc91c14ce256382ae3a7d1009df20faf2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc91c14ce256382ae3a7d1009df20faf2::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitc91c14ce256382ae3a7d1009df20faf2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit52f8c073e358d3e5558e935dc9b6155e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit52f8c073e358d3e5558e935dc9b6155e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit52f8c073e358d3e5558e935dc9b6155e::$classMap;
 
         }, null, ClassLoader::class);
     }
